@@ -37,10 +37,10 @@ const Waitlist: React.FC = () => {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
-      <div className="w-full max-w-md mx-auto">
+      <div className="w-full max-w-md mx-auto px-4">
         <h1 className="font-futura-condensed-extra-bold text-8xl font-bold mb-4 tracking-tighter">YOUR TICKET<br />TO FREEDOM.</h1>
         <p className="font-pt-serif-bold-italic mb-6">
-          <span className="font-pt-serif-bold-italic">
+          <span className="font-pt-serif-bold-italic font-bold">
             In a world of endless notifications - we&apos;re taking you back to the essentials.<br />
           </span>
           <span className="font-palatino">
