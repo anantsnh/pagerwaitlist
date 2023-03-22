@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'PT Serif Bold Italic';
+    src: url('/fonts/PTSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Condensed Extra Bold';
+    src: url('/fonts/Futura-Condensed-Extra-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Palatino';
+    src: url('/fonts/Palatino.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
