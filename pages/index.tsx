@@ -46,7 +46,7 @@ const Waitlist: React.FC = () => {
           <span className="font-palatino">
             Pagers? Beepers? Whatever you want to call them - we&apos;re bringing them back.
             Minus the hunt for the nearest payphone. Choose who you want to hear from and
-            block out the rest. Simplify your life, and live in the moment — one beep at a time.
+            block out the rest of the noise. Simplify your life, and live in the moment — one beep at a time.
           </span>
         </p>
       </div>
