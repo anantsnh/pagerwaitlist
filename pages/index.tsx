@@ -28,7 +28,7 @@ const Waitlist: React.FC = () => {
   const onSubmit: SubmitHandler<FormData> = async (data) => {
     try {
       await addDoc(collection(db, 'waitlist'), data);
-      setMessage('Thanks. we will stay in touch.');
+      setMessage('Thanks. We’ll stay in touch.');
     } catch (error) {
       setMessage('There was an error submitting your email. Please try again.');
     }
