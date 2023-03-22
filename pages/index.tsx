@@ -28,7 +28,7 @@ const Waitlist: React.FC = () => {
   const onSubmit: SubmitHandler<FormData> = async (data) => {
     try {
       await addDoc(collection(db, 'waitlist'), data);
-      setMessage('Thanks. we’ll stay in touch.');
+      setMessage('Thanks. we&apos;ll stay in touch.');
     } catch (error) {
       setMessage('There was an error submitting your email. Please try again.');
     }
@@ -41,10 +41,10 @@ const Waitlist: React.FC = () => {
         <h1 className="font-futura-condensed-extra-bold text-8xl font-bold mb-4 tracking-tighter">YOUR TICKET<br />TO FREEDOM.</h1>
         <p className="font-pt-serif-bold-italic mb-6">
           <span className="font-pt-serif-bold-italic">
-            In a world of endless notifications - we're taking you back to the essentials.<br />
+            In a world of endless notifications - we&apos;re taking you back to the essentials.<br />
           </span>
           <span className="font-palatino">
-            Pagers? Beepers? Whatever you want to call them - we’re bringing them back.
+            Pagers? Beepers? Whatever you want to call them - we&apos;re bringing them back.
             Minus the hunt for the nearest payphone. Choose who you want to hear from and
             block out the rest. Simplify your life, and live in the moment — one beep at a time.
           </span>
